@@ -99,7 +99,7 @@ const handleSubmit = async (e) => {
 
   // Fetch data from server
   // Send user's message to the server using an HTTP POST request
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://chatbot-mb3o.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
